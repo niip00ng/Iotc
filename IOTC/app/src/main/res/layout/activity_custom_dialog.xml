@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/funtion_layout"
+        android:layout_width="330dp"
+        android:layout_height="500dp"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@drawable/pannel"
+        >
+
+        <ImageView
+            android:id="@+id/light_top"
+            android:layout_width="320dp"
+            android:layout_height="340dp"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:src="@drawable/lighttop" />
+
+        <ImageView
+            android:id="@+id/light_on_button"
+            android:layout_width="320dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:src="@drawable/lightoff"/>
+
+        <ImageView
+            android:id="@+id/light_off_button"
+            android:layout_width="320dp"
+            android:layout_height="80dp"
+            android:gravity="center"
+            android:paddingTop="10dp"
+            android:src="@drawable/lighton"
+            android:visibility="gone"/>
+
+        <ImageView
+            android:id="@+id/light_bottom"
+            android:layout_width="320dp"
+            android:layout_height="90dp"
+            android:gravity="center"
+            android:paddingBottom="10dp"
+            android:paddingRight="10dp"
+            android:paddingLeft="10dp"
+            android:src="@drawable/light_bottom" />
+    </LinearLayout>
+
+</LinearLayout>
